@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:maxWidth="50dp"
+        android:maxLines="1"
+        android:text="Date"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvIncome"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ellipsize="marquee"
+        android:maxWidth="80dp"
+        android:maxLines="1"
+        android:text="Income"
+        android:textColor="@color/green"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvExpense"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:maxWidth="80dp"
+        android:maxLines="1"
+        android:text="Expense"
+        android:textColor="@color/red"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AviTaskOne</string>
+    <string name="balance">Balance: %1$s</string>
+</resources>
